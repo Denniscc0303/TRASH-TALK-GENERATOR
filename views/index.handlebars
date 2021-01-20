@@ -1,0 +1,57 @@
+<div class="title option-record" data-record="{{checkedItem}}">
+  <div class="alert alert-secondary" role="alert">
+    <h1 class="row justify-content-center">你想對誰說幹話?</h1>
+  </div>
+</div>
+
+
+<form method="POST" action="/">
+  <div class="mr-5 ml-5 d-flex justify-content-around">
+    <div class="card" style="width: 400px; height: 400px">
+      <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg"
+        class="card-img-top" style="height: 45vh;" alt="...">
+      <div class="card-body row justify-content-center">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="occupation" id="occupation1" value="工程師">
+          <label class="form-check-label" for="occupation1">
+            工程師
+          </label>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card" style="width: 400px; height: 400px">
+      <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg"
+        class="card-img-top" style="height: 45vh;" alt="...">
+      <div class="card-body row justify-content-center">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="occupation" id="occupation2" value="設計師">
+          <label class="form-check-label" for="occupation2">
+            設計師
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 400px; height: 400px">
+      <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg"
+        class="card-img-top" style="height: 45vh;" alt="...">
+      <div class="card-body row justify-content-center">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="occupation" id="occupation3" value="企業家">
+          <label class="form-check-label" for="occupation3">
+            企業家
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="form-group m-5 d-flex justify-content-around">
+    <button type="submit" class="btn btn-info ml-5">產生幹話</button>
+    <textarea placeholder="趕快來說幹話吧!!" readonly class="form-control mr-5" style=" width: 75rem; font-size: 30px"
+      id="exampleFormControlTextarea1" rows="1">{{trashTalk}}</textarea>
+  </div>
+</form>
