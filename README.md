@@ -2,7 +2,7 @@
 一個使用 Node.js + Express 打造的幹話產生器，提供使用者選取工程師/設計師/企業家三種職業之一，產生要對他們說的幹話。
 
 ## 專案畫面
-![image] https://github.com/Denniscc0303/TRASH-TALK-GENERATOR/blob/master/2-3%20A5%20%E5%B9%B9%E8%A9%B1%E7%94%A2%E7%94%9F%E5%99%A8_Dennis_20210121.JPG
+![image](https://github.com/Denniscc0303/TRASH-TALK-GENERATOR/blob/master/2-3%20A5%20%E5%B9%B9%E8%A9%B1%E7%94%A2%E7%94%9F%E5%99%A8_Dennis_20210121.JPG)
 
 ## Features - 產品功能
 使用者可以點選工程師/設計師/企業家三種職業之一，點擊產生幹話按鈕，產生要對他們說的幹話。
